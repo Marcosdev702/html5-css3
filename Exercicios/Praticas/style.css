@@ -1,0 +1,88 @@
+@charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-image: linear-gradient(to right, #F2668B,#025E73,#011F26);
+
+}
+nav{
+    background-color:white ;
+    padding: 10;
+    box-shadow: 0px 7px 9px;
+}
+
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+    border-radius: 15px; 
+}
+article{
+    background-color: lightgrey;
+    margin: 12px;
+    text-align: center;
+    border: groove 3px black;
+    border-radius: 10px;
+    height: 210px;
+    padding: 18px;
+}
+#menu{
+    height: 70px;
+    background-color: black;
+    color: #F2668B;
+    border: none;
+    text-align: left;
+}
+h1{
+    background-color: lightgreen;
+    height: 140px;
+    
+    
+    border: 10px solid darkolivegreen;
+
+
+    padding: 10px ;
+
+    margin: 10px auto 10px auto;
+
+  
+
+    color: #03A688;
+    text-align: center;
+    font-family:'afacad  flux', sans-serif ;
+    font-size: 3em;
+}
+h2{
+    background-color: lightgreen;
+    height: 60px;
+    
+    
+    border: 10px solid darkolivegreen;
+
+
+    padding: 10px ;
+
+    margin: 10px auto 10px auto;
+    color: #03A688;
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    text-align: justify;
+}
+footer{
+    background-color: lightgray;
+    width:
+    height 150px; ;
+    
+    
+}
+article > a:hover{
+    background-color: rgb(114, 201, 114);
+    margin: 100px;
+}
